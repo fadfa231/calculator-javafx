@@ -660,32 +660,9 @@ static public String Dooperation(String X)
          return pop;
     		
     }
-    static public String sumandsub(String[]X)
-    {
-    	double x=0;
-    	double y=0;
-    	for(int i=0;i<X.length;i++)
-    	{
-    		if(X[i].startsWith("-"))
-    			x+=Double.valueOf(X[i]);
-    			/*x+=Double.parseDouble(X[i]);*/
-    		else
-    			y+=Double.valueOf(X[i]);
-    			/*y+=Double.parseDouble(X[i]);*/
-    		
-    		
-    		
-    	}
-    	
-    	double z=x+y;
-    	String pop=Double.toString(z);
-    	return pop;
-    	
-    	
-    	
-    }
+   
     
-}
+
   
  
  
